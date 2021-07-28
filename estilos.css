@@ -1,0 +1,116 @@
+body{
+    
+  background-color:rgb(251, 238, 172);
+
+    }
+   
+.parqueDisney{
+    background-color: rgb(233, 214, 185);
+ 
+}
+h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+h2{
+  font-family: 'Caveat', cursive;
+    background-color:rgb(40, 82, 122);
+    color:white;
+    text-align: center;
+}
+h2:hover:hover{
+        font-size: 2.4rem;
+        background-color:darkorange
+}
+p{
+    margin: 5px;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+.display-1{
+   text-align: center;
+}
+
+.table{
+    background-color:#F4D160;
+}
+
+.nav-item{
+    transition: background-color 1s linear;
+ }
+ .nav-item:hover{
+    background-color: #3F51B5;
+ }
+.activo{
+    background-color: darksalmon;
+   border: blanchedalmond 2px solid;
+    color: black;
+}
+.universal{
+    opacity: .7;
+    transition: all 1s ease-out;
+}
+.universal:hover{
+    opacity: 1;
+}
+.disney{
+    width:50%;
+    height: auto;
+    padding-bottom: 15px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+  }
+  .disney:hover{
+    b  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  }
+ 
+.card-body{
+    background-color: blanchedalmond;
+}
+.container-fluid{
+    background-color: #8AC4D0
+}
+
+.carousel-inner{
+    margin-left: 300px;
+width: 600px;
+align-self: center;
+height: auto;
+}
+
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    color: coral;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.header {
+    color: #09baf0;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.formulario{
+    background-color: rgb(67, 92, 200);
+    width: 70%;
+    margin: 30px auto;
+    padding: 5px;
+}
+.container{
+    color: rgb(15, 15, 15);
+}
+
+.btn{
+    background-color: rgb(19, 18, 19);
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.page-footer{
+   background-color:rgb(148, 180, 211);
+   width: 100%;
+}
