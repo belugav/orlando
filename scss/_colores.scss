@@ -1,0 +1,10 @@
+$bgcolor:rgb(167, 120, 120);
+$textcolor:rgb(3, 3, 3);
+$colorTitulo: rgb(223, 126, 126);
+$colorSubtitulo:rgb(73, 103, 187);
+$colorTabla:#F4D160;
+
+@mixin tamano($width, $height) {
+    width: $width;
+    height: $height;
+  }

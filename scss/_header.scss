@@ -1,0 +1,15 @@
+.nav-item{
+    transition: background-color 1s linear;
+ &:hover{
+    background-color: #3F51B5;
+ }
+.activo{
+    background-color: darksalmon;
+   border: blanchedalmond 2px solid;
+    color: black;
+}
+.header {
+    color:$colorTabla;
+    font-size: 27px;
+ 
+}}

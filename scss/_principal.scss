@@ -1,0 +1,112 @@
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size:5rem;
+    margin: 5px;
+     font-weight: bold; 
+    color:$colorTitulo; 
+     text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        }
+h2{
+    font-size: 4rem;
+    background-color: $colorTabla;
+     font-family: 'Caveat', cursive;
+    text-align: center;
+    font-weight: bold; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
+p{
+    margin: 5px;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+.display-1{
+   text-align: center;
+}
+
+.table{
+    background-color:$colorTabla;
+}
+.principal{
+    background-color: $bgcolor;
+}
+
+.disney{
+    @include tamano(30%, auto);
+    
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 4px;
+    opacity: 60%;
+    border-radius: 9%;
+    &:hover{
+        opacity: 100;
+    }
+  }
+
+.universal{
+    @include tamano(30%, auto);
+    height: auto;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 4px;
+    opacity: 50%;
+    border-radius: 9%;
+    
+    &:hover{
+    opacity: 100%;
+}
+}
+.card-body{
+    background-color:$colorTabla;
+}
+.container-fluid{
+    background-color: #8AC4D0;
+}
+
+.imagenesUniversal{
+    background-color: $bgcolor;
+}
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    color:$colorTitulo;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.galeriaImagenes{
+  
+    width:60%;
+    height: auto;
+    display: flex;  
+	align-items: center;  
+			
+}
+.formulario{
+    background-color: rgb(67, 92, 200);
+    width: 70%;
+    margin: 30px auto;
+    padding: 5px;
+}
+.container{
+    color: rgb(15, 15, 15);
+}
+
+.btn{
+    background-color: rgb(19, 18, 19);
+    margin: 10px auto;
+    padding: 5px;
+}
+.mapa{
+    @include tamano(40%, auto);
+}
+.galeria{
+    @include tamano(40%, auto);
+   
+}

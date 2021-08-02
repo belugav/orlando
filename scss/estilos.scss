@@ -1,0 +1,14 @@
+@import"colores";
+@import "header";
+@import "principal";
+@import "footer";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bgcolor;
+    color: $textcolor;
+}
+   
