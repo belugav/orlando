@@ -1,6 +1,15 @@
 
-
 .page-footer{
-   background-color:$colorTitulo;
+   background-color:$textcolor;
    @include tamano(100%, auto);
+   
+
+}
+.menuFooter{
+   text-decoration: none;
+   color: rgb(24, 22, 22);
+   font-size:1rem;
+}
+footer p{
+   color: black;
 }

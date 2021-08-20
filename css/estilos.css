@@ -1,21 +1,22 @@
 .nav-item {
   -webkit-transition: background-color 1s linear;
   transition: background-color 1s linear;
+  text-shadow: 1px 1px 2px #5b7fb9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
 }
 
 .nav-item:hover {
-  background-color: #3F51B5;
+  background-color: #ce483c;
 }
 
 .nav-item .activo {
-  background-color: darksalmon;
-  border: blanchedalmond 2px solid;
+  background-color: #d4443b;
+  border: blanchedalmond 1px solid;
   color: black;
-}
-
-.nav-item .header {
-  color: #F4D160;
-  font-size: 27px;
 }
 
 h1 {
@@ -24,13 +25,13 @@ h1 {
   font-size: 5rem;
   margin: 5px;
   font-weight: bold;
-  color: #df7e7e;
+  color: #ce483c;
   text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
-  font-size: 4rem;
-  background-color: #F4D160;
+  font-size: 3.3rem;
+  background-color: #353d86;
   font-family: 'Caveat', cursive;
   text-align: center;
   font-weight: bold;
@@ -39,10 +40,11 @@ h2 {
   text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
-p {
-  margin: 5px;
-  padding: 8px;
-  font-size: 1.1rem;
+.slogan {
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 5%px;
+  font-size: 3.1rem;
 }
 
 .display-1 {
@@ -50,106 +52,188 @@ p {
 }
 
 .table {
-  background-color: #F4D160;
+  background-color: #353d86;
+  color: white;
 }
 
-.principal {
-  background-color: #a77878;
+.infoParques {
+  font-size: 4rem;
 }
 
 .disney {
-  width: 30%;
-  height: auto;
-  padding-bottom: 15px;
-  margin-left: 30px;
-  margin-top: 4px;
   opacity: 60%;
-  border-radius: 9%;
 }
 
 .disney:hover {
   opacity: 100;
 }
 
+.titulo {
+  background-color: black;
+}
+
 .universal {
-  width: 30%;
-  height: auto;
-  height: auto;
-  padding-bottom: 15px;
-  margin-left: 30px;
-  margin-top: 4px;
   opacity: 50%;
-  border-radius: 9%;
 }
 
 .universal:hover {
   opacity: 100%;
 }
 
-.card-body {
-  background-color: #F4D160;
+.imgParques {
+  background-color: #ce483c;
 }
 
 .container-fluid {
   background-color: #8AC4D0;
 }
 
-.imagenesUniversal {
-  background-color: #a77878;
-}
-
-.card-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2rem;
-  text-align: center;
-  color: #df7e7e;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: underline;
+.mapa {
+  width: 55%;
+  height: auto;
 }
 
 .galeriaImagenes {
   width: 60%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.formulario {
-  background-color: #435cc8;
-  width: 70%;
-  margin: 30px auto;
-  padding: 5px;
-}
-
-.container {
-  color: #0f0f0f;
-}
-
-.btn {
-  background-color: #131213;
-  margin: 10px auto;
-  padding: 5px;
-}
-
-.mapa {
-  width: 40%;
+.principal {
+  width: 100%;
   height: auto;
 }
 
-.galeria {
-  width: 40%;
-  height: auto;
+.textoImportante {
+  background-color: #ce483c;
+  width: 90%;
+  margin: 5%;
+  color: #353d86;
+  font-size: 1.3rem;
+  padding: 20%;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+h3 {
+  background-color: #4967bb;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 30px;
+  font: sans-serif;
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-shadow: 1px 1px 2px #f8f5f5;
+  font-stretch: extra-condensed;
+  padding-left: 10%;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+h5 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.general {
+  width: 50%;
+  float: left;
+}
+
+.infoGeneral {
+  background-color: #ce483c;
+  margin: 2%;
+  width: 96%;
+  padding-bottom: 2%;
+  color: white;
+}
+
+.magiaExtra {
+  background-color: #353d86;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  text-align: center;
+  border: double black 3px;
+  margin-bottom: 1%;
+}
+
+ul {
+  color: white;
+  list-style: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid black;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4967bb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ce483c;
+}
+
+p {
+  color: #0c0b0b;
+  margin: 1%;
+  text-align: justify;
+}
+
+.infoParques {
+  background-color: #d4443b;
+}
+
+.infoExtra {
+  background-color: white;
 }
 
 .page-footer {
-  background-color: #df7e7e;
+  background-color: #bcdcf5;
   width: 100%;
   height: auto;
+}
+
+.menuFooter {
+  text-decoration: none;
+  color: #181616;
+  font-size: 1rem;
+}
+
+footer p {
+  color: black;
 }
 
 * {
@@ -157,9 +241,4 @@ p {
   margin: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  background-color: #a77878;
-  color: #030303;
 }
