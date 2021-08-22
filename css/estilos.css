@@ -208,7 +208,7 @@ input[type=submit]:hover {
 
 p {
   color: #0c0b0b;
-  margin: 1%;
+  margin: 1.3%;
   text-align: justify;
 }
 
@@ -218,6 +218,29 @@ p {
 
 .infoExtra {
   background-color: white;
+}
+
+iframe {
+  width: 50%;
+  padding-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.razones {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #bcdcf5;
+  color: black;
+  padding: 1%;
+  border: #ce483c solid 5px;
+}
+
+ol {
+  font-size: 1.1rem;
+  word-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-footer {
